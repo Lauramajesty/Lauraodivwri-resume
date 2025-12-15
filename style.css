@@ -1,26 +1,26 @@
 body {
-    /* Set a clean, professional font */
+    
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Light background */
+    background-color: #f4f4f4; 
 }
 
-/* Max width and central padding for the whole resume container */
+
 .resume-container {
     max-width: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0;
-    /* Use Bootstrap's .row and .container for layout, no need for custom flexbox */
+    
 }
 
 
 header {
     background-color: #ffffff; 
-    border-bottom: 3px solid #0056b3; /* Professional blue line */
+    border-bottom: 3px solid #0056b3; 
 }
 
-header h1 { /* Targeting your h1 for your name in the final HTML */
+header h1 { 
     margin-bottom: 5px;
     font-size: 2.2em;
     color: #0056b3;
@@ -38,15 +38,15 @@ header h1 { /* Targeting your h1 for your name in the final HTML */
 
 
 .sidebar {
-    /* Targets the Bootstrap column where your sidebar content is */
+    
     padding: 20px;
-    background-color: #B4CFA4; /* Your preferred light background color */
+    background-color: #B4CFA4; 
     color: #333;
 }
 
 
 .main-content {
-    /* Targets the Bootstrap column where your main content is */
+    
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -54,7 +54,7 @@ header h1 { /* Targeting your h1 for your name in the final HTML */
 
 
 h2 {
-    color: #8BA47C; /* Your preferred dark green/grey color */
+    color: #8BA47C; 
     border-bottom: 2px solid #B4CFA4;
     padding-bottom: 5px;
     margin-bottom: 15px;
@@ -62,7 +62,7 @@ h2 {
     font-weight: 600;
 }
 
-/* Skills List Styling */
+
 .skills-list {
     list-style: none;
     padding-left: 0;
@@ -75,16 +75,17 @@ h2 {
     font-size: 0.95rem;
 }
 
-/* Remove default Bootstrap list borders for a cleaner look */
+
 .list-group-item {
     border: none;
     padding: 5px 0;
-    background-color: transparent !important; /* Ensure no background color interferes */
+    background-color: transparent !important; 
 }
 
-/* Project and Job Entry Styling */
+
 .project-entry, .job-entry {
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 1px dashed #ced4da; /* Dotted line separation */
+    border-bottom: 1px dashed #ced4da; 
+
 }
