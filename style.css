@@ -88,4 +88,17 @@ h2 {
     padding-bottom: 15px;
     border-bottom: 1px dashed #ced4da; 
 
+
+
+.about-section h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
 }
+
+.about-section p {
+    max-width: 800px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
