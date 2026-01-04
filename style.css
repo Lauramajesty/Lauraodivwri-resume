@@ -88,7 +88,9 @@ h2 {
     padding-bottom: 15px;
     border-bottom: 1px dashed #ced4da; 
 
-
+.about-section {
+    border-bottom: 1px solid #ddd;
+}
 
 .about-section h2 {
     font-weight: 600;
@@ -100,5 +102,6 @@ h2 {
     line-height: 1.6;
     margin-bottom: 10px;
 }
+
 
 
